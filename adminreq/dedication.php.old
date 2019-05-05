@@ -1,0 +1,27 @@
+<marquee height="20" scrolldelay="2" scrollamount="1" bgcolor="#0660A8" onmouseover="this.stop()" onmouseout="this.start()">
+<b><font color="#ffffff">心情點播</font></b> &nbsp;&nbsp;&nbsp;
+<b><font color="#ffffff"><? echo stripslashes($info['name']); ?></font></b>&nbsp;
+<font color="#ffffff">點播了&nbsp;<b><? echo stripslashes($song["title"]);?></b></font>&nbsp;
+<font color="#ffffff">要說</font>&nbsp;
+<font color="#ffffff"><? 
+$info['msg'] = stripslashes($info['msg']);
+echo trim($info['msg']); ?></font>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font color="#ffffff"><? echo stripslashes($info['name']); ?></font></b>&nbsp;
+<font color="#ffffff">點播了&nbsp;<b><? echo stripslashes($song["title"]);?></b></font>&nbsp;
+<font color="#ffffff">要說</font>&nbsp;
+<font color="#ffffff"><? 
+$info['msg'] = stripslashes($info['msg']);
+echo trim($info['msg']); ?></font>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font color="#ffffff"><? echo stripslashes($info['name']); ?></font></b>&nbsp;
+<font color="#ffffff">點播了&nbsp;<b><? echo stripslashes($song["title"]);?></b></font>&nbsp;
+<font color="#ffffff">要說</font>&nbsp;
+<font color="#ffffff"><? 
+$info['msg'] = stripslashes($info['msg']);
+echo trim($info['msg']); ?></font>
+
+
+</marquee>

@@ -1,0 +1,16 @@
+<!-- /* ExoBUD MP(II) 播放清單樣式表 */
+
+a,a:link  { color: #334455; text-decoration: none; }
+a:visited { color: #223344; text-decoration: none; }
+a:active  { color: #334455; text-decoration: none; }
+a:hover   { color: gold;    text-decoration: none; }
+
+body      { margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px;
+            background-color: #8498A3; cursor: crosshair; }
+
+body,td   { font-family: 'Tahoma','Verdana','Arial'; font-size: 9pt; color: #B0C0D0; }
+
+/* ８點迷你中文字型，請在有需要時，以 <span lang=zh-tw> 語法一起使用 */
+/* .minichi  { font-family: '新細明體','PMingLiU'; font-size: 8pt; } */
+
+//-->

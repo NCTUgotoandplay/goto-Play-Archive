@@ -1,0 +1,25 @@
+<table border="0">
+	<tr><td nowrap><img src="images/im.gif"
+        width="16" height="16" align="absmiddle" border="0">&nbsp; <font size=2><b>心情點播</b></font><br></td></tr>
+      <tr>
+        <td><p class="bodycopy">想要把歌曲獻給某人，或是寫下留言嗎？</td>
+      </tr>
+      <tr>
+        <td>
+		
+		<form method="POST" action="req.php">
+<? InputHidden("requestID",$song["requestID"],0); ?> 		
+<? InputHidden("songID",$song["songID"],0); ?>
+          <p class="bodycopy"><img src="images/arrow.gif" width="14"
+          height="9"> 留言者<br>
+          <input type="text" name="rname" size="30"></p>
+          <p class="bodycopy"><img src="images/arrow.gif"
+          width="14" height="9""> 你的留言<br>
+          <textarea rows="4" name="rmessage" cols="24"></textarea><br>
+          <input type="submit" value="送出留言" name="B1"></p>
+        </form>
+		
+
+    </td>
+  </tr>
+</table>		
